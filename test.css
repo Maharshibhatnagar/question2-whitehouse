@@ -1,0 +1,163 @@
+/* .body-copy, ol, p, ul {
+    font-family: MercurySSm-Book-Pro_Web,serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+/* Global Styles */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MercurySSm-Book-Pro_Web', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 170%;
+  }
+   */
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');
+
+   body {
+    margin: 0 auto;
+    max-width: 50em;
+    line-height: 1.5;
+  padding: 4em 1em;
+  /* font-family: 'Poppins'; */
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    /* margin-bottom: 40px; */
+  }
+
+  header .para {
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    /* margin-top: 20px;
+    margin-bottom: 10px; */
+    margin-top: 1em;
+  padding-top: 1em;
+  }
+   
+  
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb p {
+    margin:  0  400px; 
+    padding: 0 5px;
+  }
+  
+  /* Section Styles */
+  .introduction,
+  .first-section,
+  .second-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  }
+  
+
+
+  /* -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  cursor: default;
+  tab-size: 4;
+  word-break: break-word;
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  --vh: 6.74px;
+  --scrollbarWidth: 0px;
+  font-family: MercurySSm-Book-Pro_Web,serif;
+  -webkit-font-smoothing: antialiased;
+  color: #0a2458;
+  font-size: 16px;
+  line-height: 170%;
+  --wh-header-height: 56px;
+  box-sizing: border-box; */
+
+  /* -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  cursor: default;
+  tab-size: 4;
+  word-break: break-word;
+  --wp--preset--font-size--normal: 16px;
+  --wp--preset--font-size--huge: 42px;
+  --vh: 6.74px;
+  --scrollbarWidth: 0px;
+  font-family: MercurySSm-Book-Pro_Web,serif;
+  -webkit-font-smoothing: antialiased;
+  color: #0a2458;
+  font-size: 16px;
+  line-height: 170%;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  --wh-header-height: 44px; */
+
+  
